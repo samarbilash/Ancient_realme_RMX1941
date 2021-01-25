@@ -306,6 +306,10 @@ PRODUCT_PACKAGES += \
 # RenderScript
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
+	
+# ScreenRecordOverlay
+PRODUCT_PACKAGES += \
+    ScreenRecordOverlay
 
 # Seccomp
 PRODUCT_COPY_FILES += \
