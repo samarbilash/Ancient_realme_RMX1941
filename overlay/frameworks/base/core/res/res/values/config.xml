@@ -667,9 +667,8 @@
         <item>2</item>
         <!-- ColorDisplayManager.COLOR_MODE_AUTOMATIC -->
         <item>3</item>
-    </array>
-	
-<integer-array name="config_autoBrightnessLcdBacklightValues">
+    </array>	
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>8</item>
         <item>64</item>
         <item>98</item>
@@ -714,4 +713,7 @@
     <bool name="show_vowifi_webview">true</bool>
     <bool name="ims_provisioning">true</bool>
     <bool name="carrier_volte_provisioning_required">true</bool>
+
+    <!-- Exempt ImsService from privacy (location) indicators -->
+    <string name="config_systemAudioIntelligence" translatable="false">com.mediatek.ims</string>
 </resources>
