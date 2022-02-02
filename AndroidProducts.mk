@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/aosp_RMX1941.mk
+	$(LOCAL_DIR)/nad_RMX1941.mk
 
 COMMON_LUNCH_CHOICES := \
-        aosp_RMX1941-eng \
-        aosp_RMX1941-user \
-        aosp_RMX1941-userdebug
+        nad_RMX1941-eng \
+        nad_RMX1941-user \
+        nad_RMX1941-userdebug

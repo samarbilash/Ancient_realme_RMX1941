@@ -1,0 +1,27 @@
+[
+   {
+   "remote"       : "github",
+   "repository"   : "NusantaraROM-Devices/vendor_realme_RMX1941",
+   "target_path"  : "vendor/realme/RMX1941",
+   "branch"       : "12"
+   },
+   {
+   "remote"       : "github",
+   "repository"   : "AIV-97/android_kernel_realme_karashi",
+   "target_path"  : "kernel/realme/RMX1941",
+   "branch"       : "android-10.0",
+   "clone-depth"  : "1"
+   },
+   {
+   "remote"       : "github",
+   "repository"   : "AIV-97/device_mediatek_sepolicy_vndr",
+   "target_path"  : "device/mediatek/sepolicy_vndr",
+   "branch"       : "twelve"
+   },
+   {
+   "remote"       : "github",
+   "repository"   : "AIV-97/vendor_realme_RMX1941-ims",
+   "target_path"  : "vendor/realme/RMX1941-ims",
+   "branch"       : "12"
+   }
+]
