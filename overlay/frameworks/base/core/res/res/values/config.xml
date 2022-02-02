@@ -248,7 +248,7 @@
     <dimen name="rounded_corner_radius_top_adjustment">45.0px</dimen>
 
     <!-- Height of the status bar -->
-     <dimen name="status_bar_height_portrait">32.0dip</dimen>
+     <dimen name="status_bar_height_portrait">28.0dip</dimen>
 
     <!-- The maximum range of gamma adjustment possible using the screen
          auto-brightness adjustment setting. -->
