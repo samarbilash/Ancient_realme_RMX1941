@@ -190,9 +190,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.2.vendor
 	
-# NotchBarKiller
+# rro-overlay
 PRODUCT_PACKAGES += \
-    NotchBarKiller
+    NotchBarKiller \
+    BatteryHealthOverlay
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
