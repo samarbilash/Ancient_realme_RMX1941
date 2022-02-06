@@ -186,13 +186,13 @@ PRODUCT_PACKAGES += \
     com.android.media.swcodec \
     libsfplugin_ccodec
 
-# NotchBarKiller
-PRODUCT_PACKAGES += \
-    NotchBarKiller
-
 # Neutral Networks
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.2.vendor
+	
+# NotchBarKiller
+PRODUCT_PACKAGES += \
+    NotchBarKiller
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
