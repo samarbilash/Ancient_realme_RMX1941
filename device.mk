@@ -271,6 +271,7 @@ PRODUCT_PACKAGES += \
     oppo-install-recovery.sh \
     swap_enable.sh \
     perf_profile.sh \
+    init.performance.rc \
     init.connectivity.rc \
     init.modem.rc \
     init.mt6765.rc \
