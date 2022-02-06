@@ -167,7 +167,7 @@ service face_hal /system/bin/true
     oneshot
     disabled
 
-service set_zram /vendor/bin/sh /system/bin/set_zram.sh
+service enable_swap /vendor/bin/sh /system/bin/enable_swap.sh
     class late_start
     disabled
     user root
@@ -192,7 +192,7 @@ on property:sys.boot_completed=1
 	
     start /system/bin/perf_profile.sh
 	
-	start /system/bin/set_zram.sh
+	start /system/bin/enable_swap.sh
 	
 	# Enable ZRAM
     swapon_all /system/etc/fstab.mt6765

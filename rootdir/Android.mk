@@ -43,10 +43,8 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE       := swap_enable.sh
-LOCAL_MODULE_TAGS  := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_SRC_FILES    := bin/swap_enable.sh
-LOCAL_MODULE_PATH  := $(TARGET_OUT_ETC)/init
+LOCAL_MODULE_CLASS := EXECUTABLES
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
