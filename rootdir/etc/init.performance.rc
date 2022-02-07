@@ -148,8 +148,9 @@ on boot
     write /proc/touchpanel/double_tap_enable 1
 
     # ZRAM
-    swapon_all /vendor/fstab.enableswap
-
+    swapon_all /vendor/etc/fstab.mt6765
+    swapon_all /system/etc/fstab.mt6765
+	
     # Runtime fs tuning for runtime performance
     write /sys/block/sda/queue/read_ahead_kb 512
     write /sys/block/sda/queue/nr_requests 128
@@ -167,7 +168,7 @@ service face_hal /system/bin/true
     oneshot
     disabled
 
-service enable_swap /vendor/bin/sh /system/bin/enable_swap.sh
+service swap_enable /vendor/bin/sh /system/bin/swap_enable.sh
     class late_start
     disabled
     user root
@@ -192,7 +193,7 @@ on property:sys.boot_completed=1
 	
     start /system/bin/perf_profile.sh
 	
-	start /system/bin/enable_swap.sh
+	start /system/bin/swap_enable.sh
 	
 	# Enable ZRAM
     swapon_all /system/etc/fstab.mt6765
