@@ -111,7 +111,7 @@ PRODUCT_PACKAGES += \
 
 # FSTAB
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/rootdir/etc/fstab.mt6765:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6765
+    $(DEVICE_PATH)/rootdir/etc/fstab.mt6765:$(TARGET_COPY_OUT_SYSTEM)/etc/fstab.mt6765
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
