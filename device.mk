@@ -194,6 +194,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NotchBarKiller \
     BatteryHealthOverlay
+	
+# Remove Packages
+PRODUCT_PACKAGES += \
+    remove_packages
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
