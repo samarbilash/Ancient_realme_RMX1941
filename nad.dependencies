@@ -23,5 +23,11 @@
    "repository"   : "AIV-97/vendor_realme_RMX1941-ims",
    "target_path"  : "vendor/realme/RMX1941-ims",
    "branch"       : "12"
+   },
+   {
+   "remote"       : "github",
+   "repository"   : "Realme-G70-Series/android_packages_apps_RealmeDirac",
+   "target_path"  : "packages/apps/RealmeDirac",
+   "branch"       : "lineage-19.0"
    }
 ]
