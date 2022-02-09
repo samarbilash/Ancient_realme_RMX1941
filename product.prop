@@ -125,5 +125,7 @@ ro.zram.periodic_wb_delay_hours=24
 # Graphics
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 debug.cpurend.vsync=false
+debug.hwui.renderer=opengl
+graphics.gpu.profiler.support=true
 
 ro.opa.eligible_device=true
