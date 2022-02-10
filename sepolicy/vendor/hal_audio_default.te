@@ -1,3 +1,6 @@
 # Dirac
 get_prop(hal_audio_default, dirac_prop)
 set_prop(hal_audio_default, dirac_prop)
+
+get_prop(hal_audio_default, wmt_prop)
+allow hal_audio_default debugfs_ion:dir search;
