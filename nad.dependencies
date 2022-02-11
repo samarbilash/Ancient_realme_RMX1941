@@ -21,7 +21,7 @@
    {
    "remote"       : "github",
    "repository"   : "AIV-97/vendor_realme_RMX1941-ims",
-   "target_path"  : "vendor/realme/RMX1941-ims",
+   "target_path"  : "vendor/mtk-ims",
    "branch"       : "12"
    },
    {
