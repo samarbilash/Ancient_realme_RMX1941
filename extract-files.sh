@@ -75,6 +75,9 @@ function blob_fixup() {
         vendor/bin/hw/camerahalserver)
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v30.so" "${2}"
             ;;
+	    lib/libmtk_vt_service.so)
+	        "${PATCHELF}" --add-needed "libshim_vtservice.so" "${2}"
+	        ;;
     esac
 }
 
