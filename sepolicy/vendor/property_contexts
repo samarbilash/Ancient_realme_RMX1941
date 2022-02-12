@@ -15,3 +15,8 @@ ro.telephony.default_network u:object_r:radio_prop:s0
 # Audio
 audio.tuning.def_path                       u:object_r:audio_tunning_prop:s0
 persist.vendor.audio.tuning.def_path        u:object_r:audio_tunning_prop:s0
+
+persist.vendor.audiohal.besloudness_state   u:object_r:audiohal_prop:s0
+vendor.streamout.pcm.dump                   u:object_r:audiohal_prop:s0
+vendor.audiohal.resource.extdac.support     u:object_r:audiohal_prop:s0
+vendor.audiohal.speech.log.mask             u:object_r:audiohal_prop:s0
