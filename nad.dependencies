@@ -20,13 +20,31 @@
    },
    {
    "remote"       : "github",
-   "repository"   : "AIV-97/vendor_realme_RMX1941-ims",
+   "repository"   : "AIV-97/vendor_mtk-ims",
    "target_path"  : "vendor/mtk-ims",
    "branch"       : "12"
    },
    {
    "remote"       : "github",
-   "repository"   : "Realme-G70-Series/android_packages_apps_RealmeDirac",
+   "repository"   : "Nusantara-ROM/android_frameworks_opt_net_ims",
+   "target_path"  : "frameworks/opt/net/ims",
+   "branch"       : "12-mtk"
+   },
+   {
+   "remote"       : "github",
+   "repository"   : "Nusantara-ROM/android_frameworks_opt_telephony",
+   "target_path"  : "frameworks/opt/telephony",
+   "branch"       : "12-mtk"
+   },
+   {
+   "remote"       : "github",
+   "repository"   : "Nusantara-ROM/android_packages_modules_Wifi",
+   "target_path"  : "packages/modules/Wifi",
+   "branch"       : "12-mtk"
+   }, 
+   {
+   "remote"       : "github",
+   "repository"   : "AIV-97/android_packages_apps_RealmeDirac",
    "target_path"  : "packages/apps/RealmeDirac",
    "branch"       : "lineage-19.0"
    }

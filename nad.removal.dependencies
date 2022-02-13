@@ -1,0 +1,17 @@
+[
+   {
+   "remote"       : "nad",
+   "repository"   : "android_frameworks_opt_net_ims",
+   "target_path"  : "frameworks/opt/net/ims",
+   },  
+   {
+   "remote"       : "nad",
+   "repository"   : "android_packages_modules_Wifi",
+   "target_path"  : "packages/modules/Wifi",
+   }, 
+   {
+   "remote"       : "nad",
+   "repository"   : "android_frameworks_opt_telephony",
+   "target_path"  : "frameworks/opt/telephony"
+   }
+]
