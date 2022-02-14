@@ -32,15 +32,15 @@
    },
    {
    "remote"       : "github",
-   "repository"   : "Nusantara-ROM/android_frameworks_opt_telephony",
+   "repository"   : "AIV-97/android_frameworks_opt_telephony",
    "target_path"  : "frameworks/opt/telephony",
-   "branch"       : "12-mtk"
+   "branch"       : "12"
    },
    {
    "remote"       : "github",
-   "repository"   : "Nusantara-ROM/android_packages_modules_Wifi",
+   "repository"   : "AIV-97/android_packages_modules_Wifi",
    "target_path"  : "packages/modules/Wifi",
-   "branch"       : "12-mtk"
+   "branch"       : "12"
    }, 
    {
    "remote"       : "github",
