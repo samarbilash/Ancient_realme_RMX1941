@@ -26,9 +26,9 @@
    },
    {
    "remote"       : "github",
-   "repository"   : "Nusantara-ROM/android_frameworks_opt_net_ims",
+   "repository"   : "AIV-97/android_frameworks_opt_net_ims",
    "target_path"  : "frameworks/opt/net/ims",
-   "branch"       : "12-mtk"
+   "branch"       : "12"
    },
    {
    "remote"       : "github",
@@ -38,9 +38,9 @@
    },
    {
    "remote"       : "github",
-   "repository"   : "AIV-97/android_packages_modules_Wifi",
+   "repository"   : "Nusantara-ROM/android_packages_modules_Wifi",
    "target_path"  : "packages/modules/Wifi",
-   "branch"       : "12"
+   "branch"       : "12-mtk"
    }, 
    {
    "remote"       : "github",
