@@ -28162,8 +28162,10 @@ difference in APN profile of MyRepublic and StarHub. it was causing ID miss matc
       apn="smartfren4g"
       user="smartfren"
       password="smartfren"
-      type="default,supl,xcap"
-      authtype="1"
+      type="default,supl,xcap,ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      authtype="3"
   />
   <!-- ODM_HQ_EDIT -->
 
@@ -28171,7 +28173,7 @@ difference in APN profile of MyRepublic and StarHub. it was causing ID miss matc
       mcc="510"
       mnc="09"
       apn="ims"
-      type="ims,xcap"
+      type="ims,xcap,supl,default"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
   />
@@ -28319,7 +28321,7 @@ difference in APN profile of MyRepublic and StarHub. it was causing ID miss matc
       mcc="510"
       mnc="28"
       apn="Smartfren4G"
-      type="default,xcap"
+      type="default,xcap,ims,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
   />
