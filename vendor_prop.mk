@@ -245,4 +245,6 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     vendor.camera.mdp.cz.enable=1 \
     vendor.camera.mdp.dre.enable=0 \
     vendor.connsys.driver.ready=no \
-    vendor.mtk.vdec.waitkeyframeforplay=7 
+    vendor.mtk.vdec.waitkeyframeforplay=7 \
+    persist.ss.imsi.info=1 \
+    persist.ss.xui.info_1=1
