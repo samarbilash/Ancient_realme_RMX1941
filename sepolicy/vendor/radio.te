@@ -30,3 +30,6 @@ get_prop(radio, tel_switch_prop)
 get_prop(radio, mtk_aal_ro_prop)
 get_prop(radio, mtk_mdm_prop)
 get_prop(radio, ro_vendor_mtk_wfd_support_prop)
+
+# Allow Radio to read mtk_viwifi_support_prop
+get_prop(radio, mtk_viwifi_support_prop)
