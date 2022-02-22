@@ -261,7 +261,7 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.3.vendor
 
 # Properties
--include $(DEVICE_PATH)/vendor_prop.mk
+-include $(DEVICE_PATH)/configs/properties/vendor_prop.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Protobuf
