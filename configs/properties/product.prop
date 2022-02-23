@@ -1,11 +1,28 @@
 
 
+# Better Scrolling
+
+ro.min_pointer_dur=8
+ro.max.fling_velocity=12000
+windowsmgr.max_events_per_sec=120
+
+# Battery Saver
+ro.ril.disable.power.collapse=1
+pm.sleep_mode=1
 
 # Camera 
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,com.google.camera 
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.camera,org.pixelexperience.faceunlock 
 vendor.camera.aux.packageblacklist=org.telegram.messenger,com.microsoft.teams,com.discord
 persist.camera.HAL3.enabled=1
+
+# Faster streaming videos
+media.stagefright.enable-player=true
+media.stagefright.enable-meta=true
+media.stagefright.enable-scan=true
+media.stagefright.enable-http=true
+media.stagefright.enable-rtsp=true
+media.stagefright.enable-record=false
 
 # Graphics
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
@@ -41,6 +58,29 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 debug.stagefright.ccodec=0
 debug.stagefright.omx_default_rank.sw-audio=1 
 debug.stagefright.omx_default_rank=0
+ro.media.enc.hprof.vid.fps=65
+ro.media.enc.hprof.vid.bps=8000000
+ro.media.capture.maxres=8m
+ro.camcorder.videoModes=true
+ro.media.enc.jpeg.quality=100
+ro.media.dec.jpeg.memcap=8000000
+
+# media enhancer [codecs]
+ro.media.dec.aud.flac.enabled=1
+ro.media.dec.aud.wma.enabled=1
+ro.media.dec.vid.avi.enabled=1
+ro.media.dec.vid.wmv.enabled=1
+ro.media.dec.aud.wma.enabled=1
+ro.media.dec.aud.mp3.enabled=1
+ro.media.dec.vid.mp4.enabled=1
+ro.media.dec.aud.flac.enabled=1
+ro.media.dec.vid.H.264.enabled=1
+ro.media.enc.aud.flac.enabled=1
+ro.media.enc.vid.H.264.enabled=1
+ro.media.enc.aud.wma.enabled=1
+ro.media.enc.vid.wmv.enabled=1
+ro.media.enc.aud.mp3.enabled=1
+ro.media.enc.vid.mp4.enabled=1
 
 # Privapp permissions whitelisting
 ro.control_privapp_permissions=log
