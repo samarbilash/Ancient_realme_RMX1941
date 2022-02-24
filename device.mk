@@ -314,6 +314,11 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
+    init.bt_drv.rc \
+    init.fmradio_drv.rc \
+    init.gps_drv.rc \
+    init.wmt_drv.rc \
+    init.wlan_drv.rc \
     engineer_vendor_shell.sh \
     init.oppo.face.sh \
     init.oppo.face_calib.sh \
