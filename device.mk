@@ -322,6 +322,7 @@ PRODUCT_PACKAGES += \
     swap_enable.sh \
     perf_profile.sh \
     init.performance.rc \
+    init.project.rc \
     init.connectivity.rc \
     init.modem.rc \
     init.mt6765.rc \
