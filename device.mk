@@ -381,8 +381,8 @@ PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)
 
 # Symbols
-#PRODUCT_PACKAGES += \
-#    libshim_vtservice
+PRODUCT_PACKAGES += \
+    libshim_vtservice
 
 # Text classifier
 PRODUCT_PACKAGES += \
