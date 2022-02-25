@@ -53,14 +53,9 @@ PRODUCT_MANUFACTURER := realme
 PRODUCT_RELEASE_NAME := Realme C2
 
 # Build FP
-BUILD_FINGERPRINT := "google/raven/raven:12/SQ1D.220205.003/8069835:user/release-keys"
+BUILD_FINGERPRINT := "google/raven/raven:12/SQ1D.220205.004/8151327:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES := \
-    TARGET_DEVICE=RMX1941 \
-    PRODUCT_DEVICE=RMX1941 \
-    PRIVATE_BUILD_DESC="full_oppo6762-user 10 QP1A.190711.020 bedd37e98646d3a1 release-keys"
+    PRIVATE_BUILD_DESC="raven-user 12 SQ1D.220205.004 8151327 release-keys"
 
-PRODUCT_GMS_CLIENTID_BASE := android-oppo
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.fingerprint=$(BUILD_FINGERPRINT)
+PRODUCT_GMS_CLIENTID_BASE := android-google
