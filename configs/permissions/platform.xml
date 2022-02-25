@@ -33,6 +33,8 @@
          also be running with the given group ID attached to its process,
          so it can perform any filesystem (read, write, execute) operations
          allowed for that group. -->
+		 
+    <permission name="android.permission.BLUETOOTH_CONNECT" />
 
     <permission name="android.permission.BLUETOOTH_ADMIN" >
         <group gid="net_bt_admin" />
