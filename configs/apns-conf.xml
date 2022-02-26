@@ -15,6 +15,7 @@
 ** See the License for the specific language governing permissions and
 ** limitations under the License.
 */
+
 -->
 
 <!-- use empty string to specify no proxy or port -->
@@ -28159,7 +28160,7 @@ difference in APN profile of MyRepublic and StarHub. it was causing ID miss matc
   <apn carrier="Smartfren4G"
       mcc="510"
       mnc="09"
-      apn="smartfren4g"
+      apn="Smartfren4G"
       user="smartfren"
       password="smartfren"
       type="default,supl,xcap,ims"
