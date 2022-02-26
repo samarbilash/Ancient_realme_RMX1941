@@ -628,7 +628,6 @@ etc/init/init.vtservice.rc
 lib/libmtk_vt_service.so
 lib/libmtk_vt_wrapper.so
 lib/libmtkaudio_utils.so
-lib/libmtkavenhancements.so
 lib/libmtklimiter.so
 lib/libmtkperf_client.so
 lib/libmtkshifter.so
@@ -637,12 +636,25 @@ lib/libvcodec_capenc.so
 lib/libvt_avsync.so
 lib64/libmtk_vt_wrapper.so
 lib64/libmtkaudio_utils.so
-lib64/libmtkavenhancements.so
 lib64/libmtklimiter.so
 lib64/libmtkperf_client.so
 lib64/libmtkshifter.so
 lib64/libvcodec_cap.so
 lib64/libvcodec_capenc.so
+
+# Media
+lib/libmtkavenhancements.so
+lib64/libmtkavenhancements.so
+lib64/extractors/libmtkadpcmextractor.so
+lib64/extractors/libmtkalacextractor.so
+lib64/extractors/libmtkapeextractor.so
+lib64/extractors/libmtkasfextractor.so
+lib64/extractors/libmtkaviextractor.so
+lib64/extractors/libmtkflvextractor.so
+lib64/extractors/libmtkmp3extractor.so
+lib64/extractors/libmtkmpeg2extractor.so
+lib64/extractors/libmtkmkvextractor.so
+lib64/extractors/libOppomp4extractor.so
 
 # MTK-IMS | From bomb RP1A.200720.011 release-keys
 lib/libcomutils.so|be7c7b0901119cb260186061b90ef5b6a8292ae2
