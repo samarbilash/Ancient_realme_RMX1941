@@ -97,9 +97,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4.vendor
 	
 PRODUCT_PACKAGES += \
-    libstdc++.vendor
-	
-PRODUCT_PACKAGES += \
     CarrierConfigOverlay
 
 # Dependencies of kpoc_charger

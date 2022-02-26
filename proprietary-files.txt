@@ -1337,6 +1337,7 @@ vendor/lib/libspeech_enh_lib.so
 vendor/lib/libspeechparser_vendor.so
 vendor/lib/libsrv_um.so
 vendor/lib/libssl-ss.so
+vendor/lib/libstdc++.so
 vendor/lib/libstfaceunlockocl.so
 vendor/lib/libstorage_otp.so
 vendor/lib/libstrongswan.so
@@ -1510,6 +1511,7 @@ vendor/lib64/libspeech_enh_lib.so
 vendor/lib64/libspeechparser_vendor.so
 vendor/lib64/libsrv_um.so
 vendor/lib64/libssl-ss.so
+vendor/lib64/libstdc++.so
 vendor/lib64/libstagefright_soft_voh264enc.so
 vendor/lib64/libstereoinfoaccessor_vsdof.so
 vendor/lib64/libstface_fd_api.so
