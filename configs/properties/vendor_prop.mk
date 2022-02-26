@@ -248,4 +248,5 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     persist.ss.imsi.info=1 \
     persist.ss.xui.info_1=1 \
     debug.hwui.use_hint_manager=true \
-    debug.hwui.target_cpu_time_percent=30 
+    debug.hwui.target_cpu_time_percent=30 \
+    persist.log.tag.MDP=S
