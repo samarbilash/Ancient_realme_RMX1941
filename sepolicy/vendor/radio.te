@@ -4,9 +4,6 @@ add_service(radio, mtk_ims_service)
 add_service(radio, wfo_service)
 add_service(radio, vtservice)
 
-get_prop(radio, mtk_dynims_prop)
-get_prop(radio, mtk_vilte_support_prop)
-
 allow radio vtservice_service:service_manager find;
 
 # IMS needs to read settings
@@ -30,6 +27,7 @@ get_prop(radio, tel_switch_prop)
 get_prop(radio, mtk_aal_ro_prop)
 get_prop(radio, mtk_mdm_prop)
 get_prop(radio, ro_vendor_mtk_wfd_support_prop)
-
-# Allow Radio to read mtk_viwifi_support_prop
 get_prop(radio, mtk_viwifi_support_prop)
+get_prop(radio, mtk_vilte_support_prop)
+get_prop(radio, mtk_dynims_prop)
+
