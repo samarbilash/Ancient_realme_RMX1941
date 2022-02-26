@@ -246,4 +246,6 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     vendor.connsys.driver.ready=no \
     vendor.mtk.vdec.waitkeyframeforplay=7 \
     persist.ss.imsi.info=1 \
-    persist.ss.xui.info_1=1
+    persist.ss.xui.info_1=1 \
+    debug.hwui.use_hint_manager=true \
+    debug.hwui.target_cpu_time_percent=30 
